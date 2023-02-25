@@ -51,11 +51,11 @@
   },
   "lint-staged": {
     "*.ts": [
-      "prettier --list-different",
+      "prettier --write",
       "eslint --fix"
     ],
     "*.html": [
-      "prettier --list-different",
+      "prettier --write",
       "eslint --fix"
     ]
   }
