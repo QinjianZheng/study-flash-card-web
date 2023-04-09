@@ -1,0 +1,12 @@
+<div
+  [routerLink]="['/cards', card.id]"
+  class="card card-clickable"
+  *ngIf="card"
+>
+  <div class="card-header">
+    {{ card.front }}
+  </div>
+  <div class="card-body">
+    {{ card.back }}
+  </div>
+</div>
